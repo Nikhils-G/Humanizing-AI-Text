@@ -143,7 +143,7 @@ Ensure you have the following installed:
 ## Project Structure
 ```plaintext
 |-- app.py                # Main Python script for the Flask app
-|-- gpt2_model.py         # Model initialization and text generation logic
+|-- gpt2_model            # Model initialization and text generation logic
 |-- index.html            # User interface for input and output
 |-- styles.css            # CSS for styling the web page
 |-- script.js             # JavaScript for dynamic interactions
