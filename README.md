@@ -79,11 +79,6 @@ To install GPT-2 and set up your environment, follow these steps:
 - **Functional Programming Paradigms**: Utilized to enhance the maintainability and effectiveness of the codebase, improving data transformation processes.
 - **Mathematical Concepts**: Elements like **lambda calculus** and **type theory** are explored to deepen the model's processing capabilities.
 
-### 3. **Evaluation Mechanisms**
-- **Human Likeness**: Measured by the natural flow, readability, emotional intelligence, and diversity of generated text.
-- **Technical Complexity**: Assessed based on the implementation's sophistication.
-- **Resource Utilization**: Evaluated for computational efficiency, scalability, and cost-effectiveness.
-
 ### Developmental Process of HTML, CSS, and JavaScript Code
 
 **HTML (Structure and Layout)**:
