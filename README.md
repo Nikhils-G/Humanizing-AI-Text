@@ -1,4 +1,4 @@
-# Humanizing AI Text Project
+# Humanizing AI Text Project 🤖✨
 
 ## Overview
 The **Humanizing AI Text** project is developed as part of the Humanizing AI Text Hackathon, with the aim to create AI-generated text that is indistinguishable from human-authored content. This project leverages advanced machine learning techniques, notably using **GPT-2**, to enhance the quality, coherence, and emotional depth of generated text, making it as relatable and authentic as possible.
