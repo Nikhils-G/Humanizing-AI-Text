@@ -14,7 +14,8 @@ The primary goals of this project include:
 - **Architecture**: Transformer-based with a focus on generating human-like text.
 - **Pre-training**: The model is pre-trained on a large dataset, capturing linguistic structures and world knowledge.
 - **Fine-tuning**: Customized to adapt to specific requirements of the hackathon for better performance in humanizing text generation.
-
+  
+---
 ### Installation and Setup for GPT-2
 
 #### 1. Installing GPT-2 Using Command Prompt
@@ -68,6 +69,7 @@ To install GPT-2 and set up your environment, follow these steps:
    ```
 
    Proceed with creating the `app.py` file and connecting it to your web interface.
+   Another way is directly installation from [gpt2.Link](https://huggingface.co/openai-community/gpt2)
 
 ---
 
