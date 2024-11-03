@@ -172,13 +172,6 @@ Ensure you have the following installed:
 - **Optimized Tokenization**: Ensures that input processing is done efficiently.
 - **Model Pruning**: Reduces unnecessary computations, enhancing the performance and scalability of the application.
 
-## Evaluation Process
-- **Automated Authenticity Checks**: Texts are evaluated using third-party tools that measure human-likeness.
-- **Manual Review**: Human judges assess the quality based on emotional depth, coherence, and stylistic diversity.
-- **Performance Metrics**:
-  - **Readability Score**: Evaluates the complexity and understandability of the generated text.
-  - **Processing Time**: Measures the efficiency of generating responses.
-
 ## Ethical Considerations
 This project adheres to ethical guidelines for AI development, ensuring fairness, transparency, and accountability. The use of open-source models and responsible data handling practices is strictly followed.
 
