@@ -15,6 +15,62 @@ The primary goals of this project include:
 - **Pre-training**: The model is pre-trained on a large dataset, capturing linguistic structures and world knowledge.
 - **Fine-tuning**: Customized to adapt to specific requirements of the hackathon for better performance in humanizing text generation.
 
+### Installation and Setup for GPT-2
+
+#### 1. Installing GPT-2 Using Command Prompt
+To install GPT-2 and set up your environment, follow these steps:
+
+1. **Install Python and Pip**:
+   Ensure Python 3.7+ and `pip` are installed on your machine. Verify by running:
+   ```bash
+   python --version
+   pip --version
+   ```
+
+2. **Install Required Libraries**:
+   Run the following command to install necessary packages for using GPT-2:
+   ```bash
+   pip install transformers torch flask datasets
+   ```
+
+3. **Download GPT-2 Model**:
+   Use Python to download the pre-trained GPT-2 model and tokenizer:
+   ```python
+   from transformers import GPT2LMHeadModel, GPT2Tokenizer
+
+   # Load and save the pre-trained GPT-2 model and tokenizer
+   tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+   model = GPT2LMHeadModel.from_pretrained('gpt2')
+
+   model.save_pretrained('./gpt2-model')
+   tokenizer.save_pretrained('./gpt2-model')
+   ```
+
+   This will download and save the model to a directory named `./gpt2-model`.
+
+4. **Test the Installation**:
+   Verify that the model is properly installed by loading it in a Python environment:
+   ```python
+   tokenizer = GPT2Tokenizer.from_pretrained('./gpt2-model')
+   model = GPT2LMHeadModel.from_pretrained('./gpt2-model')
+
+   # Quick test
+   input_text = "Once upon a time"
+   input_ids = tokenizer.encode(input_text, return_tensors='pt')
+   output = model.generate(input_ids, max_length=50)
+   print(tokenizer.decode(output[0], skip_special_tokens=True))
+   ```
+
+5. **Set Up Flask**:
+   Ensure Flask is installed by running:
+   ```bash
+   pip install flask
+   ```
+
+   Proceed with creating the `app.py` file and connecting it to your web interface.
+
+---
+
 ### 2. **Advanced AI Techniques**
 - **Reinforcement Learning (RL)**: Implemented to fine-tune the model's responses based on feedback loops.
 - **Meta-Learning**: Integrated for improving the model's adaptability across various writing styles and contexts.
