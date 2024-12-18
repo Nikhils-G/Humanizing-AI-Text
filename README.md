@@ -189,5 +189,5 @@ For questions, please contact:
 - **Name**: Nikhil Sukthe
 - **Email**: sukthenikhil@gmail.com
 - **website**: [NikhilSukthe.com](https://nikhilsukthe.netlify.app/)
-- **GitHub**: [github.com/username](https://github.com/Nikhil's-G)
+- **GitHub**: [github.com/Nikhils-G](https://github.com/Nikhil's-G)
 
